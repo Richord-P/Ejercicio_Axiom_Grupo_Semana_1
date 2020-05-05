@@ -54,6 +54,13 @@ body{
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+#new h4 {
+	font-size: 22px;
+	color: #5b6471;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
 #hero a {
 	color: #1c222e;
@@ -172,6 +179,10 @@ body{
 	font-size: 35px;
 	font-family: 'EB Garamond', serif;
 }
+#new h3{
+		font-family: 'EB Garamond', serif;
+	padding-bottom: 40px;
+}
 
 #logos {
 	text-align: center;
@@ -187,6 +198,152 @@ body{
 #logos img {
 	max-width: 130px;
 }
+#new .imagen1{
+	background-image: url( "../img/Best-places-to-work.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:250px;
+}
+#new .img2{
+	background-image: url( "../img/AxiomPuck-9698.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:250px;
+
+}
+#new{
+	padding: 30px 0;
+}
+#new a{
+	color: #1c222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+}
+#new h2{
+	font-weight: 800;
+	font-size: 35px;
+	text-align: center;
+}
+#new{
+	 background-color: #ecf0f0;
+}
+#new .bg{
+	background-color: #FFFFFF;
+}
+
+#Contacto {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	background-color: #ecf0f0;
+}
+
+#Contacto .btn-naranja {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;
+	padding: 15px 25px !important;
+}
+#awards .circulo{
+	background-color:  #ecf0f0;
+	border-radius: 100%;
+	width: 190px;
+	height: 190px;
+	text-align: center;
+	padding-top: 50px;
+}
+#awards .circulo2{
+	background-color:  #ff5a2d;
+	border-radius: 100%;
+	width: 190px;
+	height: 190px;
+	text-align: center;
+	padding-top: 60px;
+	color: #fff;
+	
+}
+
+#awards h5{
+	color:  #ff5a2d;
+}
+#awards{
+	padding-top: 60px;
+	padding-bottom: 60px
+}
+
+#info-footer{
+	background-color: #1c222e;
+	color: #000000;
+	padding: 60px 0;
+	font-size: 23px;
+	align-content: center;
+}
+.redes i{
+	background-color: #464646;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 100%;
+}
+.redes{
+	text-align: right !important;
+}
+.redes i:hover{
+	background-color: #ff5518;
+	transition: all 0.3s ease-in-out;
+}
+.icon-up{
+	position: relative;
+	background-color: #f2f4f8;
+	height: 200px;
+	overflow: hidden;
+}
+.icono{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	font-size: 40px;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+.texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	text-align: center;
+	opacity: 0;
+	top: 100%;
+	transition: all 0.3s ease-in;
+}
+.icon-up:hover .icono{
+	opacity: 0;
+	top: -100%;
+	transition: all 0.3s ease-in;
+}
+.icon-up:hover .texto{
+	opacity: 1;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+#copyright{
+	background-color: #1c222e;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+}
+
 
 /*
 last-child
